@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+	<t t-extend="Throbber">
+		<t t-jquery=".oe_blockui_spin" t-operation="replace">
+			<div class="oe_blockui_spin" style="height: 50px;">
+				<img src="/web/static/src/img/spin2.gif" class="rounded-circle" alt="Loading..." style="width: 120px"/>
+			</div>
+		</t>
+	</t>
+</templates>
