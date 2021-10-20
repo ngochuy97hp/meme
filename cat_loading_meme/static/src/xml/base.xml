@@ -3,7 +3,7 @@
 	<t t-extend="Throbber">
 		<t t-jquery=".oe_blockui_spin" t-operation="replace">
 			<div class="oe_blockui_spin" style="height: 50px;">
-				<img src="/web/static/src/img/spin2.gif" class="rounded-circle" alt="Loading..." style="width: 120px"/>
+				<img src="/cat_loading_meme/static/src/img/cat_meme.gif" class="rounded-circle" alt="Loading..." style="width: 120px"/>
 			</div>
 		</t>
 	</t>
